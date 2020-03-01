@@ -74,6 +74,15 @@
 		</dependency>
 
 
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<!-- The files in this package implement JSON encoders/decoders in Java. -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160810</version>
+		</dependency>
+
+
 	</dependencies>
 
 

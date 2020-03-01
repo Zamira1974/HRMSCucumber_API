@@ -35,7 +35,7 @@ public class GetAllEmployeeAPI {
 	public void validate_the_number_of_employees() {
 		List<String> list = response.jsonPath().getList("Employee");
 	    int numberOFEmployeefromAPI=list.size();
-		int numberOFEmployeefromSQL=1977;
+		int numberOFEmployeefromSQL=2715;
 		Assert.assertEquals(numberOFEmployeefromSQL, numberOFEmployeefromAPI);
 		System.out.println("Number of employee in SQL--> "+ numberOFEmployeefromSQL);
 		System.out.println("Number of employee in API--> "+ numberOFEmployeefromAPI);
